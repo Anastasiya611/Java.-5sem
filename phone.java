@@ -15,20 +15,21 @@ ArrayList<Integer> mashaList = new ArrayList<Integer>();
 mashaList.add(896586);
 mashaList.add(252566);
 mashaList.add(569762);
-Collections.sort(mashaList);
+Collections.sort(mashaList, Collections.reverseOrder());
+
 
 phone.put("Masha", mashaList);
 
 ArrayList<Integer> pashaList = new ArrayList<Integer>();
 pashaList.add(462566);
 pashaList.add(655762);
-Collections.sort(pashaList);
+Collections.sort(pashaList, Collections.reverseOrder());
 
 phone.put("Pasha", pashaList);
 
 ArrayList<Integer> sashaList = new ArrayList<Integer>();
 sashaList.add(996586);
-Collections.sort(sashaList);
+Collections.sort(sashaList, Collections.reverseOrder());
 
 phone.put("Sasha", sashaList);
 System.out.println(phone);
